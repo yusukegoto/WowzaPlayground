@@ -1,5 +1,5 @@
-My Wowza
-========
+Wowza Playground
+================
 
 # About
 
@@ -30,14 +30,17 @@ environment:
 ```
 
 Start `docker-compose`.
+
 `$ docker-compose up --build`
 
-Open http://{WSE_IP_PARAM}:8088 and enter the user info which you've set for docker-compose.
-If you wanna check HLS, using Safari ehould be useful.
+Open `http://{WSE_IP_PARAM}:8088` and enter the user info which you've set for docker-compose.
+
+If you wanna check HLS, using Safari should be useful.
 
 ## REST Document Server
 
 REST Document Server is available by default.
+
 If you wanna see the api references, get the official swagger application and see it in browser.
 
 [Download and view the documentation](https://www.wowza.com/docs/how-to-access-documentation-for-wowza-streaming-engine-rest-api)
