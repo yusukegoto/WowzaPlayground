@@ -39,13 +39,10 @@ If you wanna check HLS, using Safari should be useful.
 
 ## REST Document Server
 
-REST Document Server is available by default.
+This repository includes official swagger application.
+Originally taken from [Download and view the documentation](https://www.wowza.com/docs/how-to-access-documentation-for-wowza-streaming-engine-rest-api).
 
-If you wanna see the api references, get the official swagger application and see it in browser.
-
-[Download and view the documentation](https://www.wowza.com/docs/how-to-access-documentation-for-wowza-streaming-engine-rest-api)
-
-To see the swagger application, execute launching command inside the extracted swagger application.
+To see the swagger application, execute launching command inside the `RESTAPIDocumentationWebpage` directory.
 
 `$ ruby -run -e httpd . -p API_DOC_PORT`
 
