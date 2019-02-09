@@ -18,15 +18,16 @@ This Repository gives playground for Wowza Streaming Engine with REST api server
 
 ## Wowza Streaming Engine
 
-Fix environment variables.
-Details can be found in `--env` of [official docker setup docuement](https://www.wowza.com/docs/how-to-set-up-wowza-streaming-engine-using-docker).
+Create `wowza.env` file for setting up wowza.
+Available variables and details can be found at `--env` section of [official docker setup docuement](https://www.wowza.com/docs/how-to-set-up-wowza-streaming-engine-using-docker).
+
+`wowza.env` sample
 
 ```
-environment:
-  WSE_MGR_USER:
-  WSE_MGR_PASS:
-  WSE_LIC:
-  WSE_IP_PARAM:
+WSE_MGR_USER=XXXX
+WSE_MGR_PASS=YYYY
+WSE_LIC=ZZZZ
+WSE_IP_PARAM=localhost
 ```
 
 Start `docker-compose`.

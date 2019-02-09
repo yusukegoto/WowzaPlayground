@@ -15,10 +15,7 @@ services:
       - 8087:8087
       - 8088:8088
       - 8089:8089
-    environment:
-      WSE_MGR_USER:
-      WSE_MGR_PASS:
-      WSE_LIC:
-      WSE_IP_PARAM:
+    env_file:
+      - wowza.env
     volumes:
       - ./wowza/content:/usr/local/WowzaStreamingEngine-4.7.7/content
