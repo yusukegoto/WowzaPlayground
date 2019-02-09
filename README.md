@@ -50,3 +50,5 @@ To see the swagger application, execute launching command inside the `RESTAPIDoc
 or
 
 `$ python3 -m http.server API_DOC_PORT`
+
+Open `http://localhost:API_DOC_PORT` in browser.
