@@ -18,4 +18,4 @@ services:
     env_file:
       - wowza.env
     volumes:
-      - ./wowza/content:/usr/local/WowzaStreamingEngine-4.7.7/content
+      - ./wowza/content:/usr/local/WowzaStreamingEngine-4.7.8/content
